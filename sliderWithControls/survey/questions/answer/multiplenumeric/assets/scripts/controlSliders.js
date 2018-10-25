@@ -65,7 +65,6 @@ function initSliderControls(sqID, scrolling, scrollInterval, valuePrefix, valueS
 	
 	// Function to update the slider tooltip
 	function csUpdateTooltip() {
-		console.log($.trim($(thisInput).val()));	
 		if($.trim($(thisInput).val()) != '') {
 			$('.tooltip-inner', thisRow).text(valuePrefix+$(thisInput).val()+valueSuffix);
 		}
@@ -128,8 +127,10 @@ function initSliderControls(sqID, scrolling, scrollInterval, valuePrefix, valueS
 		}, 150);
 	});	
 	
-	
-	
-	
-	
+	// Fix resizing bug in Bootstrap sliders
+	$(window).on('resize', function(e) {
+		setTimeout(function() {
+			csUpdateTooltip();
+		}, 10);
+	});
 }
