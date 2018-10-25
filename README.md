@@ -1,7 +1,7 @@
 # Slider Control Buttons for LimeSurvey 3.x
 **A custom question theme that inserts buttons for fine control of sliders in LimeSurvey 3.x**
 
-![Image Card Sorting](/sliderWithControls/survey/questions/answer/multiplenumeric/assets/images/slider_controls_1.png)
+![Image Card Sorting](/sliderWithControls/survey/questions/answer/multiplenumeric/assets/images/slider_controls_4.png)
 
 **Implementation:**
 
