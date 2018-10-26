@@ -34,6 +34,77 @@
     </files>
 
     <custom_attributes>
+        <!-- New attributes -->
+        <attribute>
+            <name>down_text</name>
+            <category>Custom theme options</category>
+            <sortorder>0</sortorder>
+            <inputtype>text</inputtype>
+            <default>-</default>
+            <help>Text or character in the "Down" button</help>
+            <caption>"Down" text</caption>
+        </attribute>
+		
+        <attribute>
+            <name>up_text</name>
+            <category>Custom theme options</category>
+            <sortorder>1</sortorder>
+            <inputtype>text</inputtype>
+            <default>+</default>
+            <help>Text or character in the "Up" button</help>
+            <caption>"Up" text</caption>
+        </attribute>
+		
+        <attribute>
+            <name>callout_prefix</name>
+            <category>Custom theme options</category>
+            <sortorder>2</sortorder>
+            <inputtype>text</inputtype>
+            <help>Prefix for the value displayed in the slider tooltip</help>
+            <caption>Prefix for tooltip</caption>
+        </attribute>
+		
+        <attribute>
+            <name>callout_suffix</name>
+            <category>Custom theme options</category>
+            <sortorder>3</sortorder>
+            <inputtype>text</inputtype>
+            <help>Suffix for the value displayed in the slider tooltip</help>
+            <caption>Suffix for tooltip</caption>
+        </attribute>
+		
+        <attribute>
+            <name>scrolling</name>
+            <category>Custom theme options</category>
+            <sortorder>4</sortorder>
+            <!--
+			<inputtype>buttongroup</inputtype>
+            <options>
+                <yes>Yes</yes>
+                <no>No</no>
+            </options>
+			-->
+            <inputtype>switch</inputtype>
+            <options>
+                <no>No</no> <!-- Switch returns value 0 -->
+                <yes>Yes</yes> <!-- Switch returns value 1 -->
+            </options>
+            <default>0</default>
+            <help>Continuous slider movement if left mouse button held down.</help>
+            <caption>Slider scrolling enabled</caption>
+        </attribute>
+		
+		<attribute>
+            <name>scrolling_interval</name>
+            <category>Custom theme options</category>
+            <sortorder>5</sortorder>
+            <inputtype>integer</inputtype>
+            <default>150</default>
+            <min>0</min>
+            <help>Interval between slider movement when scrolling (in miliseconds)</help>
+            <caption>Scrolling time interval (in miliseconds)</caption>
+        </attribute>
+		
         <!-- Hide/disable some core attributes -->
         <attribute>
             <name>equals_num_value</name>
