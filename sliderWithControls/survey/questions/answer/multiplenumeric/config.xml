@@ -34,78 +34,7 @@
     </files>
 
     <custom_attributes>
-        <!-- New attributes -->
-        <attribute>
-            <name>down_text</name>
-            <category>Custom theme options</category>
-            <sortorder>0</sortorder>
-            <inputtype>text</inputtype>
-            <default>-</default>
-            <help>Text or character in the "Down" button</help>
-            <caption>"Down" text</caption>
-        </attribute>
-		
-        <attribute>
-            <name>up_text</name>
-            <category>Custom theme options</category>
-            <sortorder>1</sortorder>
-            <inputtype>text</inputtype>
-            <default>+</default>
-            <help>Text or character in the "Up" button</help>
-            <caption>"Up" text</caption>
-        </attribute>
-		
-        <attribute>
-            <name>callout_prefix</name>
-            <category>Custom theme options</category>
-            <sortorder>2</sortorder>
-            <inputtype>text</inputtype>
-            <help>Prefix for the value displayed in the slider tooltip</help>
-            <caption>Prefix for tooltip</caption>
-        </attribute>
-		
-        <attribute>
-            <name>callout_suffix</name>
-            <category>Custom theme options</category>
-            <sortorder>3</sortorder>
-            <inputtype>text</inputtype>
-            <help>Suffix for the value displayed in the slider tooltip</help>
-            <caption>Suffix for tooltip</caption>
-        </attribute>
-		
-        <attribute>
-            <name>scrolling</name>
-            <category>Custom theme options</category>
-            <sortorder>4</sortorder>
-            <!--
-			<inputtype>buttongroup</inputtype>
-            <options>
-                <yes>Yes</yes>
-                <no>No</no>
-            </options>
-			-->
-            <inputtype>switch</inputtype>
-            <options>
-                <no>No</no> <!-- Switch returns value 0 -->
-                <yes>Yes</yes> <!-- Switch returns value 1 -->
-            </options>
-            <default>0</default>
-            <help>Continuous slider movement if left mouse button held down.</help>
-            <caption>Slider scrolling enabled</caption>
-        </attribute>
-		
-		<attribute>
-            <name>scrolling_interval</name>
-            <category>Custom theme options</category>
-            <sortorder>5</sortorder>
-            <inputtype>integer</inputtype>
-            <default>150</default>
-            <min>0</min>
-            <help>Interval between slider movement when scrolling (in miliseconds)</help>
-            <caption>Scrolling time interval (in miliseconds)</caption>
-        </attribute>
-		
-        <!-- Hide some core attributes -->
+        <!-- Hide/disable some core attributes -->
         <attribute>
             <name>equals_num_value</name>
             <category>Disabled options</category>
@@ -113,7 +42,6 @@
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
             <caption>Equals sum value (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
         </attribute>
 	    <attribute>
             <name>num_value_int_only</name>
@@ -123,7 +51,6 @@
 			<default>0</default>
             <help>This setting is not available in this question theme.</help>
             <caption>Integer only (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
         </attribute>
         <attribute>
             <name>maximum_chars</name>
@@ -132,7 +59,6 @@
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
             <caption>Maximum characters (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
         </attribute>
         <attribute>
             <name>max_num_value</name>
@@ -141,7 +67,6 @@
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
             <caption>Maximum sum value (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
         </attribute>
         <attribute>
             <name>max_num_value_n</name>
@@ -150,7 +75,6 @@
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
             <caption>Maximum value (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
         </attribute>
         <attribute>
             <name>min_num_value</name>
@@ -159,7 +83,6 @@
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
             <caption>Minimum sum value (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
         </attribute>
         <attribute>
             <name>min_num_value_n</name>
@@ -168,7 +91,6 @@
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
             <caption>Minimum value (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
         </attribute>
         <attribute>
             <name>text_input_width</name>
@@ -177,7 +99,6 @@
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
             <caption>Text input box width (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
         </attribute>
         <attribute>
             <name>input_size</name>
@@ -186,7 +107,6 @@
             <inputtype></inputtype>
             <help>This setting is not available in this question theme.</help>
             <caption>Text input size (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
         </attribute>
         <attribute>
             <name>slider_layout</name>
