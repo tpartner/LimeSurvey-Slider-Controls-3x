@@ -190,26 +190,18 @@
         </attribute>
         <attribute>
             <name>slider_layout</name>
-            <category>Disabled options</category>
-            <sortorder>12</sortorder>
-            <inputtype></inputtype>
+            <category>Slider</category>
+            <sortorder>1</sortorder>
+            <inputtype>switch</inputtype>
+            <options>
+                <no>No</no> <!-- Switch returns value 0 -->
+                <yes>Yes</yes> <!-- Switch returns value 1 -->
+            </options>
 			<default>1</default>
-            <help>This setting is not available in this question theme.</help>
+            <help>This setting is fixed in this question theme.</help>
             <caption>Use slider layout (defaulted to "On")</caption>
-            <readonly_when_active>false</readonly_when_active>
+            <readonly>true</readonly>
         </attribute>
-        <!--
-		<attribute>
-            <name>value_range_allows_missing</name>
-            <category>Disabled options</category>
-            <sortorder>13</sortorder>
-            <inputtype></inputtype>
-			<default>1</default>
-            <help>This setting is not available in this question theme.</help>
-            <caption>Value range allows missing (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
-        </attribute>
-		-->
     </custom_attributes>
 
     <!-- Here datas about how LimeSurvey should load the core js/css of the question -->
