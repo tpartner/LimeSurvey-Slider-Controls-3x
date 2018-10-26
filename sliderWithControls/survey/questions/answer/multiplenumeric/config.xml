@@ -107,16 +107,6 @@
 		
         <!-- Hide some core attributes -->
         <attribute>
-            <name>hidden</name>
-            <category>Disabled options</category>
-            <sortorder>1</sortorder>
-            <inputtype></inputtype>
-			<default>0</default>
-            <help>This setting is not available in this question theme.</help>
-            <caption>Always hide this question (not required)</caption>
-            <readonly_when_active>false</readonly_when_active>
-        </attribute>
-        <attribute>
             <name>equals_num_value</name>
             <category>Disabled options</category>
             <sortorder>2</sortorder>
